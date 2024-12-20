@@ -68,7 +68,7 @@ class Proof:
 
         if len(p) == 1 and len(q) > 1 and (p[0][0] * -1, p[0][1], p[0][2]) in q:
             q.remove((-1*p[0][0], p[0][1], p[0][2]))
-            self.state[j] = q # msh aayzina sah?
+            self.state[j] = q
 
             return True
         else:
